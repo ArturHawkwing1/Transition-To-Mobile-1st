@@ -1,0 +1,192 @@
+/* Secured by Fire Computer Repair
+SCC for entire site
+screen.css*/
+
+/*CSS Reset Code*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End CSS reset Code*/
+/*---------------------------------------------------------
+	Begin custom CSS for SecuredByFire.com
+---------------------------------------------------------*/
+
+/*Fonts*/
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 1000;
+  src: local('Tangerine Bold'), local('Tangerine-Bold'), url(https://fonts.gstatic.com/s/tangerine/v7/UkFsr-RwJB_d2l9fIWsx3ugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neuton Regular'), local('Neuton-Regular'), url(https://fonts.gstatic.com/s/neuton/v8/ZCHeepBpOu0e76AMO9CV8Q.woff2) format('woff2');
+}
+
+body {
+	background-color: red;
+}
+
+#BannerText {
+	text-align:center;
+}
+
+h2 {
+	text-align: center;
+}
+#Logo {
+	float: left;
+}
+
+#head {
+	background-color: yellow;
+	border: 3px black solid;
+	float: right;
+	width: 100%;
+	clear: both;
+	font-family: Tangerine;
+}
+
+#LeftColumn {
+	font-family: Neuton;
+	float: left;
+	width: 10%;
+	padding-left: 1%;
+	margin-left: -1.1em;
+	clear: left;
+}
+
+#CenterColumn {
+	font-family: Neuton;
+	background-color: black;
+	color: white;
+	float: left;
+	width: 58%;
+	padding-left: 1%;
+}
+
+#slideshow {
+	font-family: Neuton;
+	float: left;
+	width: 30%;
+	padding-left: 1%;
+	position:relative;
+    height:200px;
+	width:356px;
+	clear: right;
+}
+
+#Footer {
+	font-family: Neuton;
+	color: white;
+	float: left;
+	width: 100%;
+	clear: both;
+	text-align: center;
+}
+
+#map {
+	height: 40em;
+	width: 60%;
+	float: right;
+}
+
+#Selector {
+	float: left;
+}
+
+#end {
+	display: none;
+}
+
+select {
+	background-color: red;
+	color: yellow;
+}
+
+/*for the links*/
+#LeftColumn li {
+	list-style-type: none;
+	text-align: center;
+}
+
+#LeftColumn a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	background-color: #EEEEFF;
+	box-shadow: 5px 5px 5px gray;
+	margin-bottom: 5px:
+}
+
+#LeftColumn a:hover {
+	background-color: #DDDDEE;
+	box-shadow: 3px 3px 3px gray;
+	border: none;
+}
+
+/*Below is for the slidshow */
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}

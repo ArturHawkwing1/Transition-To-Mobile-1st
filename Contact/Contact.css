@@ -1,0 +1,26 @@
+form {
+	color: yellow;
+}
+
+fieldset {
+	color: yellow;
+}
+
+#PickupPerson {
+	display: none;
+}
+
+#Availability {
+	display: none;
+}
+
+#Comments {
+	display: none;
+}
+#Consulting {
+	display: none;
+}
+
+#Label {
+	<!--CSS that puts a ": " at the end of each label.-->
+)
