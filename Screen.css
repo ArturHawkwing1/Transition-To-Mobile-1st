@@ -114,14 +114,31 @@ a.button {
     appearance: button;
 	
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    color: blue;
+	/*increase the size of the nav button*/
+>>>>>>> master
 }
 
 #Meat {
 	font-family: Neuton;
 	color: yellow;
 	clear: left;
+	color: yellow;
 }
 
+input, label {
+	display: block;
+	padding-top: 0.3em;
+}
+
+<<<<<<< HEAD
+=======
+#WelcomeText {
+	font-size: 1.5em;
+}
+>>>>>>> master
 
 #Footer {
 	font-family: Neuton;
