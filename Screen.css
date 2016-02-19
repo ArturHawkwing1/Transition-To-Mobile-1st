@@ -108,19 +108,23 @@ a.button {
     appearance: button;
 	
     text-decoration: none;
-    color: initial;
+    color: blue;
 	/*increase the size of the nav button*/
 }
 
 #Meat {
 	font-family: Neuton;
 	clear: left;
+	color: yellow;
+}
+
+input, label {
+	display: block;
+	padding-top: 0.3em;
 }
 
 #WelcomeText {
 	font-size: 1.5em;
-	color: White;
-	
 }
 
 #Footer {
